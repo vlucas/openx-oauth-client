@@ -1,0 +1,21 @@
+{
+    "name": "vlucas/openx-oauth-client",
+    "authors": [
+        {
+            "name": "Vance Lucas",
+            "email": "vance@vancelucas.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~4.0",
+        "guzzlehttp/oauth-subscriber": "~0.1"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vlucas\\": "src/Vlucas"
+        }
+    }
+}
